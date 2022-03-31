@@ -1,5 +1,12 @@
 # MERN tutorial
 
+Fullstack tutorial with JS/MONGO DB
+
+> M : Mongoose  
+> E : Express.js  
+> R : React.js  
+> N : Node.js  
+
 Try it and repeat.
 
 This cource from Youtube channel : # [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
