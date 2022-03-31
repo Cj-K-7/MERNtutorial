@@ -7,26 +7,26 @@ This cource from Youtube channel : # [Traversy Media](https://www.youtube.com/ch
 
 ## CRUD
 
-### Create :
+### Create :  
 
-req => HTTP POST /api/devices + payload
-res => 201+ location
+req => HTTP POST /api/devices + payload  
+res => 201+ location  
 
-### Read   :
+### Read   :  
 
-req => HTTP GET /api/devices
-res => 200+ payload
+req => HTTP GET /api/devices  
+res => 200+ payload  
 
-### Update :
+### Update :  
 
-needs prams(id) for identifying you want update
+needs prams(id) for identifying you want update  
 
-req => HTTP PUT /api/devices/1 + payload
-res => 200
+req => HTTP PUT /api/devices/1 + payload  
+res => 200  
 
-### Delete : 
+### Delete :  
 
-needs prams(id) for identifying you want delete
-
-req => HTTP DELETE /api/devices/1
-res => 200
+needs prams(id) for identifying you want delete  
+  
+req => HTTP DELETE /api/devices/1  
+res => 200  
