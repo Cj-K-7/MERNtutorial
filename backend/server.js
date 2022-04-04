@@ -21,7 +21,8 @@ app.use(express.urlencoded({extended : false}))
 
 
 // /api request에 대한 Middleware
-app.use('/api', require('./routes/apiRouter'))
+app.use('/api', require('./routes/goalRoutes'))
+app.use('/user', require('./routes/userRoutes'))
 
 app.use(errorHandler);
 
