@@ -20,9 +20,7 @@ function Login() {
 
   const onSubmit =(event : React.FormEvent<HTMLFormElement>)=>{
     event.preventDefault();
-    const {
-      currentTarget: { value },
-    } = event;
+    
   }
 
   return (
@@ -58,7 +56,7 @@ function Login() {
             />
           </div>
           <div className="form-group">
-            <button type='submit' className="btn btn-block btn-dark">LOGIN</button>
+            <button type='submit' className="btn btn-block">LOGIN</button>
           </div>
         </form>
       </section>
